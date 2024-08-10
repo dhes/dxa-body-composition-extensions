@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "dxa-body-composition-fat-mass",
+  "url": "https://dhes.github.io/dxa-body-composition-extensions/StructureDefinition/dxa-body-composition-fat-mass",
+  "name": "DXABodyCompositionFatMass",
+  "status": "draft",
+  "publisher": "dhes",
+  "description": "Extension for DXA Body Composition Fat Mass, which is required to use either [lb_av] (pounds) or kg (kilograms) as the unit.",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Observation"
+    }
+  ],
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.valueQuantity.unit",
+        "path": "Observation.valueQuantity.unit",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": {
+            "reference": "https://dhes.github.io/dxa-body-composition-extensions/ValueSet/dxa-composition-mass-units"
+          }
+        }
+      }
+    ]
+  }
+}
