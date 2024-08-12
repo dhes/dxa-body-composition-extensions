@@ -1,0 +1,163 @@
+[
+    {
+        "_id": "7781eee2-d81e-4b6a-a7ec-4e277ce77831",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/ValueSet",
+        "url": "http://localhost:8080/fhir/ValueSet/dxa-composition-mass-units",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:12:25.049Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../ValueSet-dxa-composition-mass-units.json"
+        }
+    },
+    {
+        "_id": "0897d89c-2969-4af9-a265-843267706af4",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition bone mineral mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-bone-mineral-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:17:32.109Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-bone-mineral-mass.json"
+        }
+    },
+    {
+        "_id": "51fd07eb-70e7-4ec1-89c9-ff641daf6d10",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition fat mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-fat-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:17:58.792Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-fat-mass.json"
+        }
+    },
+    {
+        "_id": "1e49d460-f0ea-4d71-b08a-c05213e4b7c3",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition lean mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-lean-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:21:43.868Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-lean-mass.json"
+        }
+    },
+    {
+        "_id": "d528d3c7-190e-43df-9b90-019112383dba",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition subcutaneous fat mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-subcutaneous-fat-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:23:10.062Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-subcutaneous-fat-mass.json"
+        }
+    },
+    {
+        "_id": "addef21d-b415-4b69-b1b3-a9a8c15364fc",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition total mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-total-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:24:07.200Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-total-mass.json"
+        }
+    },
+    {
+        "_id": "41ec432b-6df3-4d85-ac6c-7cc59e3ffbe2",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8080/fhir/StructureDefinition visceral fat mass",
+        "url": "http://localhost:8080/fhir/StructureDefinition/dxa-body-composition-visceral-fat-mass",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2024-08-11T00:06:09.191Z",
+        "modified": "2024-08-11T00:24:35.867Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/fhir+json"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../StructureDefinition-dxa-body-composition-visceral-fat-mass.json"
+        }
+    }
+]
